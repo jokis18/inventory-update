@@ -1,0 +1,69 @@
+.Polaris-Button--primary{
+    background: linear-gradient(to bottom, #922682, #782b6d) !important;
+    border-color: #77276a !important;
+    box-shadow: inset 0 1px 0 0 #76276a, 0 1px 0 0 rgba(22, 29, 37, 0.05), 0 0 0 0 transparent !important;
+    color: white;
+}
+.Polaris-Button--primary:hover{
+    background: linear-gradient(to bottom, #922682, #782b6d) !important;
+    border-color: #77276a !important;
+    color: white;
+    text-decoration: none;
+}
+.Polaris-Button--primary:focus{
+    border-color: #77276a !important;
+    box-shadow: inset 0 1px 0 0 #922682, 0 1px 0 0 rgba(22, 29, 37, 0.05), 0 0 0 1px #782b6d !important;
+}
+.Polaris-Button--primary:active{
+    background: linear-gradient(to bottom, #922682, #782b6d) !important;
+    border-color: #77276a !important;
+    box-shadow: inset 0 0 0 0 transparent, 0 1px 0 0 rgba(22, 29, 37, 0.05), 0 0 1px 0 #76276a !important;
+}
+.Polaris-Button--primary.Polaris-Button--disabled{
+    background: linear-gradient(to bottom, #c156b2, #ad3b9c) !important;
+    border-color: #b356a4 !important;
+    box-shadow: inset 0 1px 0 0 #76276a, 0 1px 0 0 rgba(22, 29, 37, 0.05), 0 0 0 0 transparent !important;
+    color: #732767 !important;
+}
+ #load {
+    background: url('/reactshopify/public/images/09b24e31234507.564a1d23c07b4.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+} 
+.Polaris-Link {
+    color: #77276a !important;
+}
+.Polaris-Link:hover {
+    color: var(--p-interactive-hovered, #77276a) !important;
+    text-decoration: underline;
+}
+.Polaris-Checkbox:not(.Polaris-Checkbox--newDesignLanguage) .Polaris-Checkbox__Backdrop{
+        background-color: #79296c !important;
+}
+.Polaris-Checkbox:not(.Polaris-Checkbox--newDesignLanguage) .Polaris-Checkbox__Input:active + .Polaris-Checkbox__Backdrop{
+        background: #79296c !important;
+    box-shadow: 0 0 0 1px #79296c, 0 0 0 0 transparent !important;
+}
+.Polaris-Checkbox__Icon svg {
+    fill: var(--p-icon-on-interactive, #79296c) !important;
+}
+.Polaris-Checkbox:not(.Polaris-Checkbox--newDesignLanguage) .Polaris-Checkbox__Input:focus + .Polaris-Checkbox__Backdrop, .Polaris-Checkbox:not(.Polaris-Checkbox--newDesignLanguage) .Polaris-Checkbox__Input:active + .Polaris-Checkbox__Backdrop {
+        background: #79296c;
+    box-shadow: 0 0 0 1px #79296c, 0 0 0 0 transparent !important;
+}
+.Polaris-DropZone--hasOutline:not(.Polaris-DropZone--isDisabled):hover:not(.Polaris-DropZone--newDesignLanguage)::after {
+    border-color: #944087 !important;
+}
+.Polaris-DropZone--hasOutline:not(.Polaris-DropZone--isDisabled):hover {
+    background-color: #fdf9fc !important;
+}
+.Polaris-Pagination{
+    display: block !important;
+}
+.paginat {
+    text-align: center;
+}
